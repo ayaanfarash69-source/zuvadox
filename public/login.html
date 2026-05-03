@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuva Global Mobility Spain | Admin Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand-lockup brand-link" href="/">
+          <span class="brand-mark">ZG</span>
+          <span class="brand-divider" aria-hidden="true"></span>
+          <span class="brand-wordmark">
+            <strong>ZUVA</strong>
+            <span>GLOBAL</span>
+          </span>
+        </a>
+
+        <nav class="topbar-nav" aria-label="Primary navigation">
+          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="https://www.zuvaglobal.com/about-us/" target="_blank" rel="noreferrer">
+            About Us
+          </a>
+          <a class="nav-link has-caret" href="https://www.zuvaglobal.com/" target="_blank" rel="noreferrer">
+            Services
+          </a>
+          <a class="nav-link" href="https://www.zuvaglobal.com/blog/" target="_blank" rel="noreferrer">
+            Blog
+          </a>
+          <a class="nav-link" href="https://www.zuvaglobal.com/contact-us/" target="_blank" rel="noreferrer">
+            Contact Us
+          </a>
+        </nav>
+
+        <div class="topbar-actions">
+          <a class="topbar-cta" href="/">Client Form</a>
+        </div>
+      </header>
+
+      <main class="login-layout">
+        <section class="login-card">
+          <p class="eyebrow">Protected area</p>
+          <h2>Sign in to the team dashboard</h2>
+          <p class="login-copy">
+            Use your admin credentials to view submissions and open uploaded client documents.
+          </p>
+
+          <form data-login-form>
+            <input type="hidden" name="next" data-next-field />
+
+            <label>
+              Username
+              <input type="text" name="username" autocomplete="username" required />
+            </label>
+
+            <label>
+              Password
+              <input type="password" name="password" autocomplete="current-password" required />
+            </label>
+
+            <button class="primary-button" type="submit">Sign in</button>
+            <div class="status-card is-hidden" data-login-status></div>
+          </form>
+        </section>
+
+        <aside class="login-side-card">
+          <p class="eyebrow">Public deployment note</p>
+          <h2>Built for hosted access</h2>
+          <p>
+            Once deployed publicly, the client upload form can stay open to clients while the team
+            dashboard and uploaded files stay behind admin login.
+          </p>
+        </aside>
+      </main>
+    </div>
+
+    <script src="/login.js" defer></script>
+  </body>
+</html>
