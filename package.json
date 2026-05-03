@@ -1,0 +1,12 @@
+{
+  "name": "zuva-client-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Client document upload portal for Zuva Global Mobility Spain.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
