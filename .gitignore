@@ -1,0 +1,5 @@
+uploads/*
+!uploads/.gitkeep
+storage/
+*.log
+admin-credentials.json
