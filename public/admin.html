@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuva Global Mobility Spain | Team Intake View</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell dashboard-shell">
+      <header class="topbar">
+        <a class="brand-lockup brand-link" href="/">
+          <span class="brand-mark">ZG</span>
+          <span class="brand-divider" aria-hidden="true"></span>
+          <span class="brand-wordmark">
+            <strong>ZUVA</strong>
+            <span>GLOBAL</span>
+          </span>
+        </a>
+
+        <nav class="topbar-nav" aria-label="Primary navigation">
+          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="https://www.zuvaglobal.com/about-us/" target="_blank" rel="noreferrer">
+            About Us
+          </a>
+          <a class="nav-link has-caret" href="https://www.zuvaglobal.com/" target="_blank" rel="noreferrer">
+            Services
+          </a>
+          <a class="nav-link" href="https://www.zuvaglobal.com/blog/" target="_blank" rel="noreferrer">
+            Blog
+          </a>
+          <a class="nav-link" href="https://www.zuvaglobal.com/contact-us/" target="_blank" rel="noreferrer">
+            Contact Us
+          </a>
+        </nav>
+
+        <div class="topbar-actions">
+          <a class="ghost-link" href="/">Client Form</a>
+          <button class="topbar-cta topbar-cta-secondary ghost-button" type="button" data-logout-button>
+            Sign out
+          </button>
+        </div>
+      </header>
+
+      <section class="dashboard-hero dashboard-hero-banner">
+        <div>
+          <p class="hero-kicker">Internal overview</p>
+          <h1 class="dashboard-hero-title">Incoming Client Submissions</h1>
+          <p>
+            This view lists the submissions saved by the upload portal. Add authentication before
+            publishing this beyond internal or prototype use.
+          </p>
+        </div>
+        <div class="dashboard-metric">
+          <span>Total submissions</span>
+          <strong data-submission-count>0</strong>
+        </div>
+        <div class="dashboard-metric">
+          <span>Total files received</span>
+          <strong data-document-count>0</strong>
+        </div>
+      </section>
+
+      <section class="dashboard-list" data-submission-list>
+        <article class="empty-state">
+          <h3>No submissions yet</h3>
+          <p>Your team will see uploaded client cases here after the first successful upload.</p>
+        </article>
+      </section>
+
+      <section class="embed-section">
+        <div class="embed-head">
+          <div>
+            <p class="eyebrow">Official website</p>
+            <h2>Zuva Global website preview</h2>
+            <p>
+              Keep the main company website visible inside the admin area while your team reviews
+              client submissions.
+            </p>
+          </div>
+          <a class="ghost-link" href="https://www.zuvaglobal.com/" target="_blank" rel="noreferrer">
+            Open full website
+          </a>
+        </div>
+
+        <div class="site-embed-card">
+          <iframe
+            class="site-embed-frame"
+            src="https://www.zuvaglobal.com/"
+            title="Zuva Global official website"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+      </section>
+    </div>
+
+    <script src="/admin.js" defer></script>
+  </body>
+</html>
