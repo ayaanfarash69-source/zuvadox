@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuva Global Mobility Spain | Client Document Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand-lockup brand-link" href="/">
+          <span class="brand-mark">ZG</span>
+          <span class="brand-divider" aria-hidden="true"></span>
+          <span class="brand-wordmark">
+            <strong>ZUVA</strong>
+            <span>GLOBAL</span>
+          </span>
+        </a>
+
+        <nav class="topbar-nav" aria-label="Primary navigation">
+          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="https://www.zuvaglobal.com/about-us/" target="_blank" rel="noreferrer">
+            About Us
+          </a>
+          <a class="nav-link has-caret" href="#client-upload">Services</a>
+          <a class="nav-link" href="https://www.zuvaglobal.com/blog/" target="_blank" rel="noreferrer">
+            Blog
+          </a>
+          <a class="nav-link" href="https://www.zuvaglobal.com/contact-us/" target="_blank" rel="noreferrer">
+            Contact Us
+          </a>
+        </nav>
+
+        <div class="topbar-actions">
+          <a
+            class="topbar-cta"
+            href="https://www.zuvaglobal.com/contact-us/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Get a Free Consultation
+          </a>
+        </div>
+      </header>
+
+      <section class="hero-banner">
+        <div class="hero-banner-content">
+          <p class="hero-kicker">Spain Global Mobility Document Portal</p>
+          <h1 class="hero-banner-title">Expanding Businesses Beyond Borders</h1>
+          <p class="hero-banner-copy">
+            Your trusted partner for seamless global growth, compliance, and market entry
+            strategies.
+          </p>
+
+          <div class="hero-banner-actions">
+            <a
+              class="hero-banner-button"
+              href="https://www.zuvaglobal.com/contact-us/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Book a Free Consultation
+            </a>
+            <a class="hero-banner-secondary" href="#client-upload">Upload Client Documents</a>
+            <button class="hero-sound-toggle" type="button" data-sound-toggle aria-pressed="false">
+              <span class="sound-dot" aria-hidden="true"></span>
+              <span data-sound-label>Calming Sound Off</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <main id="client-upload" class="main-grid">
+        <section class="hero-card overview-card">
+          <p class="eyebrow">Secure upload for Spain immigration and relocation cases</p>
+          <h2>Everything your clients need to send in one place.</h2>
+          <p class="hero-copy">
+            Use this portal to collect passports, permits, employment letters, and supporting
+            documents for Spain visa, residency, and relocation cases. Every upload is stored for
+            your team to review.
+          </p>
+
+          <div class="hero-metrics">
+            <article>
+              <strong>Fast intake</strong>
+              <span>Clients can upload multiple files in one secure submission.</span>
+            </article>
+            <article>
+              <strong>Case-ready</strong>
+              <span>Collect names, contact details, service type, and supporting notes.</span>
+            </article>
+            <article>
+              <strong>Spain-focused</strong>
+              <span>Built for work permits, visas, residency, and relocation support.</span>
+            </article>
+          </div>
+
+          <div class="checklist-card">
+            <h3>Typical documents requested</h3>
+            <ul>
+              <li>Passport copy</li>
+              <li>Visa or residence documents</li>
+              <li>Employment or assignment letters</li>
+              <li>Proof of address</li>
+              <li>Civil status or family documents</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="form-card">
+          <div class="form-head">
+            <p class="eyebrow">Client upload form</p>
+            <h2>Share your documents</h2>
+            <p>
+              Required fields are marked clearly. Clients can upload multiple files in one
+              submission. Files accepted: PDF, DOC, DOCX, JPG, JPEG, PNG.
+            </p>
+          </div>
+
+          <form data-upload-form>
+            <div class="form-grid">
+              <label>
+                Full name
+                <input type="text" name="fullName" placeholder="Client full name" required />
+              </label>
+
+              <label>
+                Email address
+                <input type="email" name="email" placeholder="client@email.com" required />
+              </label>
+
+              <label>
+                Phone number
+                <input type="tel" name="phone" placeholder="+34 ..." />
+              </label>
+
+              <label>
+                Nationality
+                <input type="text" name="nationality" placeholder="Nationality" />
+              </label>
+
+              <label>
+                Country of residence
+                <input
+                  type="text"
+                  name="countryOfResidence"
+                  placeholder="Current country of residence"
+                />
+              </label>
+
+              <label>
+                Service type
+                <select name="serviceType" required>
+                  <option value="">Select service</option>
+                  <option value="Spain work permit">Spain work permit</option>
+                  <option value="Spain visa support">Spain visa support</option>
+                  <option value="Spain residence permit">Spain residence permit</option>
+                  <option value="Spain relocation">Spain relocation</option>
+                  <option value="Family or dependent case">Family or dependent case</option>
+                </select>
+              </label>
+            </div>
+
+            <label class="full-width">
+              Case notes
+              <textarea
+                name="caseNotes"
+                rows="5"
+                placeholder="Add any background details, deadlines, or documents you still need to send."
+              ></textarea>
+            </label>
+
+            <label class="file-picker">
+              <span>Documents to upload</span>
+              <p class="file-picker-hint">
+                Select one or more files for the same case. Up to 10 documents per submission, 10
+                MB each.
+              </p>
+              <input
+                type="file"
+                name="documents"
+                accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
+                multiple
+                required
+              />
+              <small data-file-summary>No files selected yet.</small>
+              <ul class="selected-file-list is-hidden" data-file-list></ul>
+            </label>
+
+            <label class="consent-row">
+              <input type="checkbox" name="consent" required />
+              <span>
+                I confirm these documents may be reviewed by Zuva Global Mobility for my Spain case.
+              </span>
+            </label>
+
+            <button class="primary-button" type="submit">Upload documents</button>
+
+            <div class="status-card is-hidden" data-status></div>
+          </form>
+        </section>
+      </main>
+
+      <section class="steps-panel">
+        <article>
+          <span>01</span>
+          <h3>Complete the form</h3>
+          <p>Share your contact details and choose the Spain service you need support with.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Attach your files</h3>
+          <p>Upload passports, permits, letters, or any supporting documents requested by our team.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>We review the case</h3>
+          <p>Once the upload is received, your documents are stored in the team portal for follow-up.</p>
+        </article>
+      </section>
+
+      <section class="embed-section">
+        <div class="embed-head">
+          <div>
+            <p class="eyebrow">Official website</p>
+            <h2>Zuva Global website preview</h2>
+            <p>
+              Clients can view the main Zuva Global website here without leaving the upload portal.
+            </p>
+          </div>
+          <a class="ghost-link" href="https://www.zuvaglobal.com/" target="_blank" rel="noreferrer">
+            Open full website
+          </a>
+        </div>
+
+        <div class="site-embed-card">
+          <iframe
+            class="site-embed-frame"
+            src="https://www.zuvaglobal.com/"
+            title="Zuva Global official website"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Zuva Global Mobility Spain document intake portal.</p>
+        <p>&copy; <span data-year></span> Zuva Global Mobility</p>
+      </footer>
+    </div>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>
